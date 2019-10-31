@@ -9,7 +9,7 @@ namespace FileSizeGenerator
 		{
 			XmlParser xmlParser = new XmlParser();
 			IterationsFinder iterationsFinder = new IterationsFinder();
-			Clonner clonner = new Clonner();
+			Cloner clonner = new Cloner();
 
 			xmlParser.GetFilesWithPartsOfXml(element, Path.GetFullPath(pathToFile), docType);
 			var iterations = iterationsFinder.GetIterationsToNeededSIze(number, units);

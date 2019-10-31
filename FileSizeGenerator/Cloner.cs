@@ -3,7 +3,7 @@ using System.Text;
 
 namespace FileSizeGenerator
 {
-	internal class Clonner
+	internal class Cloner
 	{
 		internal void GetFileAfterClone(int iterations)
 		{
